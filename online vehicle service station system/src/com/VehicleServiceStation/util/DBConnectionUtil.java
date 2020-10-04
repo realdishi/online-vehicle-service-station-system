@@ -21,7 +21,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 
-public class DBConnectionUtil {
+public class DBConnectionUtil extends DBConnProperty {
 	
 	private static Connection conn;
 	
@@ -51,6 +51,8 @@ public class DBConnectionUtil {
 					properties.getProperty(QueryConstants.PASSWORD));
 					
 		}
+		
+		return conn;
 	}
 
 }

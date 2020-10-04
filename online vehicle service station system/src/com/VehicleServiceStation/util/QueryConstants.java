@@ -30,5 +30,20 @@ public class QueryConstants {
 
 	/* Constant for password in db.properties */
 	public static final String PASSWORD = "password";
+	
+	/***************************************************************/
+	
+	
+	
+	/** Constant for QueryXML */
+	
+	
+	/** Constant for tag name in QueryXML */
+	public static final String TAG_NAME = "query";
+	
+	/** Constant for tag id in QueryXML */
+	public static final String GET_ID = "ids";
+	
+	/***************************************************************/
 
 }
