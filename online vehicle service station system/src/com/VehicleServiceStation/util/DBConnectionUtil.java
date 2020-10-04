@@ -8,6 +8,12 @@
  *
  */
 
+/**
+ * DBConnectionUtil CLASS CREATES THE DATABASE CONNECTION
+ * 
+ * @see DBconnProperty
+ */
+
 package com.VehicleServiceStation.util;
 
 import java.sql.Connection;
